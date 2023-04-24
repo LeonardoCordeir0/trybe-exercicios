@@ -1,0 +1,12 @@
+git branch > checar aonde vc ta e criar ramificacao
+git checkout - trocar de ramificacao
+git branch -D > deletar ramificacao
+cat > mostrar oque tem
+cat >> adicionar
+ctrl C - Confirmar
+Q > fechar o git branch
+git push -u origin 'nome da branch
+git add .- salva 
+git commit - cria um commit
+git push - enviar
+git pull origin main - enviar o conteudo da main para uma branch 
