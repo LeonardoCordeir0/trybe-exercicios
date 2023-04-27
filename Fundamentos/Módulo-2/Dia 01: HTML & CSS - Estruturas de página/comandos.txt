@@ -1,0 +1,10 @@
+H1 ate o H6 > Titulos
+P > Paragrafo
+a > Colocar Sites (a href="" colocar o link , target="_blank" abrir o link em uma nova aba )
+br > Quebra linhas 
+strong > deixa em negrito
+p > italico
+ul > lista nao ordenada (para colocar itens dentro da lista li)
+ol > lista com numeros
+img src="" > colocar uma imagem *(utilizar width="" para mudar o tamanho)
+id + a > fazer a pagina decer ate onde foi marcado
