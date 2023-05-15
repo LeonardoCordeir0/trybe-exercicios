@@ -3,3 +3,5 @@
 script src (nome da pagina)
 console.log(document.getElementById("teste"));
 console.log(document.getElementsByClassName)
+parentElement.removeChild(childElement); > remover elemento
+parent.appendChild(newElement);> criar elemento
