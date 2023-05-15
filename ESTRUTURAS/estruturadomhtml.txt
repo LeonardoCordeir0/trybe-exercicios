@@ -1,0 +1,5 @@
+.innerHTML > acessar conteudo
+.innerTEXT > filtra tudo do conteudo
+script src (nome da pagina)
+console.log(document.getElementById("teste"));
+console.log(document.getElementsByClassName)
