@@ -1,7 +1,8 @@
 .innerHTML > acessar conteudo
 .innerTEXT > filtra tudo do conteudo
 script src (nome da pagina)
-console.log(document.getElementById("teste"));
-console.log(document.getElementsByClassName)
+document.getElementById >busca o elemento pela ID
+document.getElementsByClassName > busca  o elemento pela Classe
 parentElement.removeChild(childElement); > remover elemento
-parent.appendChild(newElement);> criar elemento
+parent.appendChild(newElement);> criar elemento / document.criateElement
+algumacoisa.className > cria uma classe
