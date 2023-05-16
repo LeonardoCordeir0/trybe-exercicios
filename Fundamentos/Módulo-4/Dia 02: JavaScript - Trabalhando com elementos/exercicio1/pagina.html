@@ -61,13 +61,31 @@
       comecoDaPagina.innerText = 'TrybeTrip - Agência de Viagens'
       document.body.appendChild(comecoDaPagina)
       
-      const main = document.createElement('main')
-      main.className='main-content'
-      document.body.appendChild(main)
+      const main = document.createElement('main');
+      main.className='main-content';
+      document.body.appendChild(main);
 
-      const section = document.createElement('section')
-      section.className='center-content'
-      document.appendChild(section)
+      const section = document.createElement('section');
+      section.className='center-content';
+      main.appendChild(section);
+
+      const tagp = document.createElement('p');
+      tagp.innerText = 'ola';
+      section.appendChild(tagp);
+
+      const section2 = document.createElement('section');
+      section2.className='left-content';
+      main.appendChild(section2)
+
+      const section3 = document.createElement('section');
+      section3.className='right-content';
+      main.appendChild(section3);
+
+      const img = document.createElement('img');
+      img.className='small-image';
+      img.src = 'https://picsum.photos/200';
+      section2.appendChild(img);
+
     </script>
   </body>
 </html>
