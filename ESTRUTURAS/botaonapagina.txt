@@ -1,0 +1,16 @@
+<body>
+<p id ="trybe"
+Ola, somos a trybe e temos uma oferta
+</p>
+
+<button onclick="maisInfos();">Mais informacoes</button>
+
+<p id="trybe-continua"></p>
+<script>
+window.onload = jsCarregado
+
+function jsCarregado() {
+    alert("Pagina foi carregada!")
+}
+</script>
+</body>
