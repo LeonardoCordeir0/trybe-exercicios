@@ -1,0 +1,6 @@
+<body>
+
+<form actoion="" method="GET">
+<input type="text" name="texto>
+<button type="submit">Enviar</button>
+<form>

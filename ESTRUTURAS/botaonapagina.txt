@@ -12,5 +12,11 @@ window.onload = jsCarregado
 function jsCarregado() {
     alert("Pagina foi carregada!")
 }
+
+function maisInfos() {
+    let textoMaisInfo = document.getElementById("trybe-continua");
+    textoMaisInfo.innerText = "Aqui voce vai aprende Hard Skills, Soft Skills e varias outras habilidades!";
+}
+
 </script>
 </body>
