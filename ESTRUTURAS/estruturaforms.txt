@@ -1,6 +1,47 @@
+//preencher o campo
 <body>
 
 <form actoion="" method="GET">
-<input type="text" name="texto>
+<label for="">Digite seu nome</label>
+<input type="text" placeholder="digite algo" name="texto>
 <button type="submit">Enviar</button>
 <form>
+
+//checkbox
+<form actoion="" method="GET">
+<input type="checkbox" id="esporte-1" value="fut" name="esporte">Futebol 
+<input type="checkbox" id="esporte-2" value="vol" name="esporte">Volei 
+<input type="checkbox" id="esporte-3" value="pet" name="esporte">Peteca
+<input type="checkbox" id="esporte-4" value="bas" name="esporte">Basquete
+
+//radio
+<form actoion="" method="GET">
+<input type="radio" id="hub1" value="hub" name="sp">Sao Paulo
+
+/////////////////////// tipos de imput ///////////////////////////////////////////////
+
+Input type	Descrição
+text	Campo de entrada de texto de linha única.
+password	Os caracteres do campo de senha são mascarados (mostrados como asteriscos ou círculos).
+email	Campos de entrada que devem conter um endereço de e-mail.
+number	Define um campo de entrada numérico.
+checkbox	Permite que a pessoa usuária selecione zero ou mais opções de um número limitado de escolhas.
+radio	Permite que uma pessoa usuária selecione apenas uma de um número limitado de opções.
+file	Campo de seleção de arquivo e um botão “Procurar” para uploads de arquivos.
+submit	Envia dados de formulário a um manipulador de formulários (especificado na action do form).
+reset	Redefine todos os valores do formulário para seus valores padrão.
+/////////////////////////////////////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////tipos de atributos//////////////////////////////////////////////
+name	Define o nome do elemento que é usado para identificar o valor do elemento quando o formulário é enviado.
+value	Define um valor inicial para o elemento.
+placeholder	Define um texto de ajuda temporário que aparece dentro do elemento de entrada quando ele está vazio.
+required	Define se o elemento é obrigatório ou não.
+readonly	Define se o elemento é somente leitura ou não.
+disabled	Define se o elemento está desativado ou não.
+size	Define o tamanho do elemento de entrada.
+maxlength	Define o número máximo de caracteres que podem ser inseridos no elemento.
+min e max	Redefine todos os valores do formulário para seus valores padrão.
+step	Define o valor do intervalo entre os valores permitidos para um elemento do tipo number.
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////
+

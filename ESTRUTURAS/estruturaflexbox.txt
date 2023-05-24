@@ -1,0 +1,50 @@
+A propriedade flex-direction é aquela que define a direção dos flex items e modifica quem é o Main Axis. Os valores que essa propriedade possui são:
+
+Valor	Descrição
+row ->	onde os elementos ficam um ao lado do outro, é o valor padrão
+row-reverse ->	os itens ficam em linha reversa
+column ->	onde os itens ficam em uma única coluna, um embaixo do outro
+column-reverse ->	em que os itens também ficam um embaixo do outro, porém em ordem reversa
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+A propriedade flex-wrap define se os itens devem quebrar ou não a linha. Os valores que essa propriedade possui são:
+
+Valor	Descrição
+nowrap ->	os itens não quebram a linha, sendo o valor padrão dessa propriedade
+wrap ->	que os itens quebram a linha
+wrap-reverse	 ->    que quebra a linha na direção contrária
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+O justify-content alinha os flex items no container de acordo com a direção, essa propriedade possui os valores:
+
+Valor	Descrição
+flex-start	->Alinha os itens ao início do container
+flex-end	->Alinha os itens ao final do container
+center	->Alinha os itens ao centro do container
+space-between	->Cria um espaçamento igual entre os elementos, mantendo o primeiro grudado no início e o último no final
+space-around	->Cria um espaçamento entre os elementos, mas os espaçamentos do meio são duas vezes maiores que o inicial e final
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+A propriedade align-items alinha os flex items de acordo com o eixo transversal (cross-axis). Os valores que essa propriedade aceita são:
+
+Valor	Descrição
+stretch	->Faz com que os flex items cresçam igualmente, é seu valor padrão
+flex-start	->Alinha os itens ao início
+flex-end	->Alinha os itens ao final
+center	->Alinha os itens ao centro
+baseline	->Alinha os itens de acordo com a linha base da tipografia
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+A propriedade align-content alinha as linhas do container em relação ao eixo transversal (cross-axis), sendo que essa propriedade só funciona caso haja mais de uma linha de flex items. As opções de alinhamento que podem ser usadas são:
+
+Valor	Descrição
+stretch	->Faz com que os flex items cresçam igualmente na vertical.
+flex-start	->Alinha todas as linhas de itens ao início.
+flex-end	->Alinha todas as linhas de itens ao final.
+center	->Alinha todas as linhas ao centro.
+space-between	->Cria um espaçamento igual entre as linhas, mantendo a primeira grudada no topo e a última no final da página.
+space-around	->Cria um espaçamento entre as linhas, mas os espaçamentos do meio são duas vezes maiores que o top e o bottom.
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
